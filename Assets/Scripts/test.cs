@@ -12,6 +12,7 @@ public class test : MonoBehaviour
     {
         Transform a = game.transform;
         Debug.Log(a.position);
+        var x = a.position.x;
     }
 
     // Update is called once per frame
